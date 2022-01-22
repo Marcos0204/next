@@ -19,11 +19,12 @@ const Navbar = () => {
             >
                <a> Posts</a>
             </Link>
-            <Link
-                href={`/posts/${5}`}
+            {/* <Link
+                href={`/posts/[id]`}
+                as={`/posts/${5}`}
             >
                <a> Posts 5</a>
-            </Link>
+            </Link> */}
         </nav>
     )
 }

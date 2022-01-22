@@ -1,12 +1,15 @@
 import React from 'react'
+import Layout from '../../Components/Layout/Layout'
+import Title from '../../Components/molecules/Title/Title'
 import Navbar from '../../Components/Navbar'
 
 const user = () => {
     return (
-        <div>
-            <Navbar />
-            <h1>User Page</h1>
-        </div>
+        <Layout>
+            <Title>
+                User Page
+            </Title>
+        </Layout>
     )
 }
 

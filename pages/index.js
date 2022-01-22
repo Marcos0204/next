@@ -1,14 +1,15 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
+import Layout from '../Components/Layout/Layout'
+import Title from '../Components/molecules/Title/Title'
+
 
 const Home = () => {
     return (
-        <div>
-            <Navbar/>
-            <h1
-                style={{ color:'red'}}
-            >App principal</h1>
-        </div>
+        <Layout>
+            <Title>
+                App principal...(Home)
+            </Title>
+        </Layout>
     )
 }
 

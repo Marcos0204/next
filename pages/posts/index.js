@@ -1,12 +1,14 @@
 import React from 'react'
-import Navbar from '../../Components/Navbar/index'
+import Layout from '../../Components/Layout/Layout'
+import Title from '../../Components/molecules/Title/Title'
 
 const Posts = () => {
     return (
-        <div>
-        <Navbar />
-            <h2>post sprin</h2>
-        </div>
+        <Layout>
+            <Title>
+                post sprin
+            </Title>
+        </Layout>
     )
 }
 

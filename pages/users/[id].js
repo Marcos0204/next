@@ -1,5 +1,7 @@
 import React from 'react'
 import { useRouter }  from 'next/router'
+import Title from '../../Components/molecules/Title/Title';
+import Layout from '../../Components/Layout/Layout';
 
 const user = () => {
     const {query : { id }} = useRouter();
@@ -8,10 +10,12 @@ const user = () => {
  
     
     return (
-        <div>
-            <h2>user name:</h2>
+        <Layout>
+            <Title>
+                user name:
+            </Title>
             <h5>user ID: { id && id}</h5>
-        </div>
+        </Layout>
     )
 }
 
